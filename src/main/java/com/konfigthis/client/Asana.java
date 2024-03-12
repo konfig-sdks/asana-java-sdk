@@ -1,0 +1,120 @@
+package com.konfigthis.client;
+
+import com.konfigthis.client.api.AttachmentsApi;
+import com.konfigthis.client.api.AuditLogApiApi;
+import com.konfigthis.client.api.BatchApiApi;
+import com.konfigthis.client.api.CustomFieldSettingsApi;
+import com.konfigthis.client.api.CustomFieldsApi;
+import com.konfigthis.client.api.EventsApi;
+import com.konfigthis.client.api.GoalRelationshipsApi;
+import com.konfigthis.client.api.GoalsApi;
+import com.konfigthis.client.api.JobsApi;
+import com.konfigthis.client.api.MembershipsApi;
+import com.konfigthis.client.api.OrganizationExportsApi;
+import com.konfigthis.client.api.PortfolioMembershipsApi;
+import com.konfigthis.client.api.PortfoliosApi;
+import com.konfigthis.client.api.ProjectBriefsApi;
+import com.konfigthis.client.api.ProjectMembershipsApi;
+import com.konfigthis.client.api.ProjectStatusesApi;
+import com.konfigthis.client.api.ProjectTemplatesApi;
+import com.konfigthis.client.api.ProjectsApi;
+import com.konfigthis.client.api.RulesApi;
+import com.konfigthis.client.api.SectionsApi;
+import com.konfigthis.client.api.StatusUpdatesApi;
+import com.konfigthis.client.api.StoriesApi;
+import com.konfigthis.client.api.TagsApi;
+import com.konfigthis.client.api.TaskTemplatesApi;
+import com.konfigthis.client.api.TasksApi;
+import com.konfigthis.client.api.TeamMembershipsApi;
+import com.konfigthis.client.api.TeamsApi;
+import com.konfigthis.client.api.TimePeriodsApi;
+import com.konfigthis.client.api.TimeTrackingEntriesApi;
+import com.konfigthis.client.api.TypeaheadApi;
+import com.konfigthis.client.api.UserTaskListsApi;
+import com.konfigthis.client.api.UsersApi;
+import com.konfigthis.client.api.WebhooksApi;
+import com.konfigthis.client.api.WorkspaceMembershipsApi;
+import com.konfigthis.client.api.WorkspacesApi;
+
+public class Asana {
+    private ApiClient apiClient;
+    public final AttachmentsApi attachments;
+    public final AuditLogApiApi auditLogApi;
+    public final BatchApiApi batchApi;
+    public final CustomFieldSettingsApi customFieldSettings;
+    public final CustomFieldsApi customFields;
+    public final EventsApi events;
+    public final GoalRelationshipsApi goalRelationships;
+    public final GoalsApi goals;
+    public final JobsApi jobs;
+    public final MembershipsApi memberships;
+    public final OrganizationExportsApi organizationExports;
+    public final PortfolioMembershipsApi portfolioMemberships;
+    public final PortfoliosApi portfolios;
+    public final ProjectBriefsApi projectBriefs;
+    public final ProjectMembershipsApi projectMemberships;
+    public final ProjectStatusesApi projectStatuses;
+    public final ProjectTemplatesApi projectTemplates;
+    public final ProjectsApi projects;
+    public final RulesApi rules;
+    public final SectionsApi sections;
+    public final StatusUpdatesApi statusUpdates;
+    public final StoriesApi stories;
+    public final TagsApi tags;
+    public final TaskTemplatesApi taskTemplates;
+    public final TasksApi tasks;
+    public final TeamMembershipsApi teamMemberships;
+    public final TeamsApi teams;
+    public final TimePeriodsApi timePeriods;
+    public final TimeTrackingEntriesApi timeTrackingEntries;
+    public final TypeaheadApi typeahead;
+    public final UserTaskListsApi userTaskLists;
+    public final UsersApi users;
+    public final WebhooksApi webhooks;
+    public final WorkspaceMembershipsApi workspaceMemberships;
+    public final WorkspacesApi workspaces;
+
+    public Asana() {
+        this(null);
+    }
+
+    public Asana(Configuration configuration) {
+        this.apiClient = new ApiClient(null, configuration);
+        this.attachments = new AttachmentsApi(this.apiClient);
+        this.auditLogApi = new AuditLogApiApi(this.apiClient);
+        this.batchApi = new BatchApiApi(this.apiClient);
+        this.customFieldSettings = new CustomFieldSettingsApi(this.apiClient);
+        this.customFields = new CustomFieldsApi(this.apiClient);
+        this.events = new EventsApi(this.apiClient);
+        this.goalRelationships = new GoalRelationshipsApi(this.apiClient);
+        this.goals = new GoalsApi(this.apiClient);
+        this.jobs = new JobsApi(this.apiClient);
+        this.memberships = new MembershipsApi(this.apiClient);
+        this.organizationExports = new OrganizationExportsApi(this.apiClient);
+        this.portfolioMemberships = new PortfolioMembershipsApi(this.apiClient);
+        this.portfolios = new PortfoliosApi(this.apiClient);
+        this.projectBriefs = new ProjectBriefsApi(this.apiClient);
+        this.projectMemberships = new ProjectMembershipsApi(this.apiClient);
+        this.projectStatuses = new ProjectStatusesApi(this.apiClient);
+        this.projectTemplates = new ProjectTemplatesApi(this.apiClient);
+        this.projects = new ProjectsApi(this.apiClient);
+        this.rules = new RulesApi(this.apiClient);
+        this.sections = new SectionsApi(this.apiClient);
+        this.statusUpdates = new StatusUpdatesApi(this.apiClient);
+        this.stories = new StoriesApi(this.apiClient);
+        this.tags = new TagsApi(this.apiClient);
+        this.taskTemplates = new TaskTemplatesApi(this.apiClient);
+        this.tasks = new TasksApi(this.apiClient);
+        this.teamMemberships = new TeamMembershipsApi(this.apiClient);
+        this.teams = new TeamsApi(this.apiClient);
+        this.timePeriods = new TimePeriodsApi(this.apiClient);
+        this.timeTrackingEntries = new TimeTrackingEntriesApi(this.apiClient);
+        this.typeahead = new TypeaheadApi(this.apiClient);
+        this.userTaskLists = new UserTaskListsApi(this.apiClient);
+        this.users = new UsersApi(this.apiClient);
+        this.webhooks = new WebhooksApi(this.apiClient);
+        this.workspaceMemberships = new WorkspaceMembershipsApi(this.apiClient);
+        this.workspaces = new WorkspacesApi(this.apiClient);
+    }
+
+}
