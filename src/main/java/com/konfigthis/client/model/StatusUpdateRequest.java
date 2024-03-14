@@ -1,6 +1,6 @@
 /*
  * Asana
- * This is the interface for interacting with the [Asana Platform](https://developers.asana.com). Our API reference is generated from our [OpenAPI spec] (https://raw.githubusercontent.com/Asana/openapi/master/defs/asana_oas.yaml).
+ * This is the interface for interacting with the [Asana Platform](https://developers.asana.com). Our API reference is generated from our [OpenAPI spec](https://raw.githubusercontent.com/Asana/openapi/master/defs/asana_oas.yaml).
  *
  * The version of the OpenAPI document: 1.0
  * 
@@ -316,11 +316,11 @@ public class StatusUpdateRequest {
   }
 
    /**
-   * [Opt In](https://raw.githubusercontent.com). The text content of the status update with formatting as HTML.
+   * [Opt In](https://developers.asana.com/reference/rest-api-reference). The text content of the status update with formatting as HTML.
    * @return htmlText
   **/
   @javax.annotation.Nullable
-  @ApiModelProperty(example = "<body>The project <strong>is</strong> moving forward according to plan...</body>", value = "[Opt In](https://raw.githubusercontent.com). The text content of the status update with formatting as HTML.")
+  @ApiModelProperty(example = "<body>The project <strong>is</strong> moving forward according to plan...</body>", value = "[Opt In](https://developers.asana.com/reference/rest-api-reference). The text content of the status update with formatting as HTML.")
 
   public String getHtmlText() {
     return htmlText;

@@ -1,6 +1,6 @@
 /*
  * Asana
- * This is the interface for interacting with the [Asana Platform](https://developers.asana.com). Our API reference is generated from our [OpenAPI spec] (https://raw.githubusercontent.com/Asana/openapi/master/defs/asana_oas.yaml).
+ * This is the interface for interacting with the [Asana Platform](https://developers.asana.com). Our API reference is generated from our [OpenAPI spec](https://raw.githubusercontent.com/Asana/openapi/master/defs/asana_oas.yaml).
  *
  * The version of the OpenAPI document: 1.0
  * 
@@ -46,7 +46,7 @@ public class RulesApiTest {
     /**
      * Trigger a rule
      *
-     * Trigger a rule which uses an [\&quot;incoming web request\&quot;](https://raw.githubusercontent.com) trigger.
+     * Trigger a rule which uses an [\&quot;incoming web request\&quot;](https://developers.asana.com/reference/rest-api-reference) trigger.
      *
      * @throws ApiException if the Api call fails
      */

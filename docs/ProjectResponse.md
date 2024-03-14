@@ -19,7 +19,7 @@
 |**defaultView** | [**DefaultViewEnum**](#DefaultViewEnum) | The default view (list, board, calendar, or timeline) of a project. |  [optional] |
 |**dueDate** | **LocalDate** | *Deprecated: new integrations should prefer the &#x60;due_on&#x60; field.* |  [optional] |
 |**dueOn** | **LocalDate** | The day on which this project is due. This takes a date with format YYYY-MM-DD. |  [optional] |
-|**htmlNotes** | **String** | [Opt In](https://raw.githubusercontent.com). The notes of the project with formatting as HTML. |  [optional] |
+|**htmlNotes** | **String** | [Opt In](https://developers.asana.com/reference/rest-api-reference). The notes of the project with formatting as HTML. |  [optional] |
 |**members** | [**List&lt;UserCompact&gt;**](UserCompact.md) | Array of users who are members of this project. |  [optional] [readonly] |
 |**modifiedAt** | **OffsetDateTime** | The time at which this project was last modified. *Note: This does not currently reflect any changes in associations such as tasks or comments that may have been added or removed from the project.* |  [optional] [readonly] |
 |**notes** | **String** | Free-form textual information associated with the project (ie., its description). |  [optional] |

@@ -1,6 +1,6 @@
 /*
  * Asana
- * This is the interface for interacting with the [Asana Platform](https://developers.asana.com). Our API reference is generated from our [OpenAPI spec] (https://raw.githubusercontent.com/Asana/openapi/master/defs/asana_oas.yaml).
+ * This is the interface for interacting with the [Asana Platform](https://developers.asana.com). Our API reference is generated from our [OpenAPI spec](https://raw.githubusercontent.com/Asana/openapi/master/defs/asana_oas.yaml).
  *
  * The version of the OpenAPI document: 1.0
  * 
@@ -138,11 +138,11 @@ public class WebhookRequestFiltersInner {
   }
 
    /**
-   * The type of change on the **resource** to pass through the filter. For more information refer to &#x60;Event.action&#x60; in the [event](https://raw.githubusercontent.com) schema. This can be one of &#x60;changed&#x60;, &#x60;added&#x60;, &#x60;removed&#x60;, &#x60;deleted&#x60;, and &#x60;undeleted&#x60; depending on the nature of what has occurred on the resource.
+   * The type of change on the **resource** to pass through the filter. For more information refer to &#x60;Event.action&#x60; in the [event](https://developers.asana.com/reference/rest-api-reference) schema. This can be one of &#x60;changed&#x60;, &#x60;added&#x60;, &#x60;removed&#x60;, &#x60;deleted&#x60;, and &#x60;undeleted&#x60; depending on the nature of what has occurred on the resource.
    * @return action
   **/
   @javax.annotation.Nullable
-  @ApiModelProperty(example = "changed", value = "The type of change on the **resource** to pass through the filter. For more information refer to `Event.action` in the [event](https://raw.githubusercontent.com) schema. This can be one of `changed`, `added`, `removed`, `deleted`, and `undeleted` depending on the nature of what has occurred on the resource.")
+  @ApiModelProperty(example = "changed", value = "The type of change on the **resource** to pass through the filter. For more information refer to `Event.action` in the [event](https://developers.asana.com/reference/rest-api-reference) schema. This can be one of `changed`, `added`, `removed`, `deleted`, and `undeleted` depending on the nature of what has occurred on the resource.")
 
   public String getAction() {
     return action;

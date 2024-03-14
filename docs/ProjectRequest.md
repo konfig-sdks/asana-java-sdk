@@ -19,7 +19,7 @@
 |**defaultView** | [**DefaultViewEnum**](#DefaultViewEnum) | The default view (list, board, calendar, or timeline) of a project. |  [optional] |
 |**dueDate** | **LocalDate** | *Deprecated: new integrations should prefer the &#x60;due_on&#x60; field.* |  [optional] |
 |**dueOn** | **LocalDate** | The day on which this project is due. This takes a date with format YYYY-MM-DD. |  [optional] |
-|**htmlNotes** | **String** | [Opt In](https://raw.githubusercontent.com). The notes of the project with formatting as HTML. |  [optional] |
+|**htmlNotes** | **String** | [Opt In](https://developers.asana.com/reference/rest-api-reference). The notes of the project with formatting as HTML. |  [optional] |
 |**members** | [**List&lt;UserCompact&gt;**](UserCompact.md) | Array of users who are members of this project. |  [optional] [readonly] |
 |**modifiedAt** | **OffsetDateTime** | The time at which this project was last modified. *Note: This does not currently reflect any changes in associations such as tasks or comments that may have been added or removed from the project.* |  [optional] [readonly] |
 |**notes** | **String** | Free-form textual information associated with the project (ie., its description). |  [optional] |
@@ -28,7 +28,7 @@
 |**defaultAccessLevel** | [**DefaultAccessLevelEnum**](#DefaultAccessLevelEnum) | The default access for users or teams who join or are added as members to the project. |  [optional] |
 |**minimumAccessLevelForCustomization** | [**MinimumAccessLevelForCustomizationEnum**](#MinimumAccessLevelForCustomizationEnum) | The minimum access level needed for project members to modify this project&#39;s workflow and appearance. |  [optional] |
 |**minimumAccessLevelForSharing** | [**MinimumAccessLevelForSharingEnum**](#MinimumAccessLevelForSharingEnum) | The minimum access level needed for project members to share the project and manage project memberships. |  [optional] |
-|**customFields** | **Map&lt;String, String&gt;** | An object where each key is the GID of a custom field and its corresponding value is either an enum GID, string, number, or object (depending on the custom field type). See the [custom fields guide](https://raw.githubusercontent.com) for details on creating and updating custom field values. |  [optional] |
+|**customFields** | **Map&lt;String, String&gt;** | An object where each key is the GID of a custom field and its corresponding value is either an enum GID, string, number, or object (depending on the custom field type). See the [custom fields guide](https://developers.asana.com/reference/rest-api-reference) for details on creating and updating custom field values. |  [optional] |
 |**followers** | **String** | *Create-only*. Comma separated string of users. Followers are a subset of members who have opted in to receive \&quot;tasks added\&quot; notifications for a project. |  [optional] |
 |**owner** | **String** | The current owner of the project, may be null. |  [optional] |
 |**team** | **String** | The team that this project is shared with. |  [optional] |

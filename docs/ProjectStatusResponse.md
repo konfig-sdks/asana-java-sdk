@@ -11,7 +11,7 @@
 |**resourceType** | **String** | The base type of this resource. |  [optional] [readonly] |
 |**title** | **String** | The title of the project status update. |  [optional] |
 |**text** | **String** | The text content of the status update. |  [optional] |
-|**htmlText** | **String** | [Opt In](https://raw.githubusercontent.com). The text content of the status update with formatting as HTML. |  [optional] |
+|**htmlText** | **String** | [Opt In](https://developers.asana.com/reference/rest-api-reference). The text content of the status update with formatting as HTML. |  [optional] |
 |**color** | [**ColorEnum**](#ColorEnum) | The color associated with the status update. |  [optional] |
 |**author** | [**UserCompact**](UserCompact.md) |  |  [optional] |
 |**createdAt** | **OffsetDateTime** | The time at which this resource was created. |  [optional] [readonly] |

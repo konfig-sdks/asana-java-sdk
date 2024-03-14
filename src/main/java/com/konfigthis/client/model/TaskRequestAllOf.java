@@ -1,6 +1,6 @@
 /*
  * Asana
- * This is the interface for interacting with the [Asana Platform](https://developers.asana.com). Our API reference is generated from our [OpenAPI spec] (https://raw.githubusercontent.com/Asana/openapi/master/defs/asana_oas.yaml).
+ * This is the interface for interacting with the [Asana Platform](https://developers.asana.com). Our API reference is generated from our [OpenAPI spec](https://raw.githubusercontent.com/Asana/openapi/master/defs/asana_oas.yaml).
  *
  * The version of the OpenAPI document: 1.0
  * 
@@ -202,11 +202,11 @@ public class TaskRequestAllOf {
   }
 
    /**
-   * An object where each key is the GID of a custom field and its corresponding value is either an enum GID, string, number, object, or array (depending on the custom field type). See the [custom fields guide](https://raw.githubusercontent.com) for details on creating and updating custom field values.
+   * An object where each key is the GID of a custom field and its corresponding value is either an enum GID, string, number, object, or array (depending on the custom field type). See the [custom fields guide](https://developers.asana.com/reference/rest-api-reference) for details on creating and updating custom field values.
    * @return customFields
   **/
   @javax.annotation.Nullable
-  @ApiModelProperty(example = "{\"5678904321\":\"On Hold\",\"4578152156\":\"Not Started\"}", value = "An object where each key is the GID of a custom field and its corresponding value is either an enum GID, string, number, object, or array (depending on the custom field type). See the [custom fields guide](https://raw.githubusercontent.com) for details on creating and updating custom field values.")
+  @ApiModelProperty(example = "{\"5678904321\":\"On Hold\",\"4578152156\":\"Not Started\"}", value = "An object where each key is the GID of a custom field and its corresponding value is either an enum GID, string, number, object, or array (depending on the custom field type). See the [custom fields guide](https://developers.asana.com/reference/rest-api-reference) for details on creating and updating custom field values.")
 
   public Map<String, String> getCustomFields() {
     return customFields;

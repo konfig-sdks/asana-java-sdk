@@ -1,6 +1,6 @@
 /*
  * Asana
- * This is the interface for interacting with the [Asana Platform](https://developers.asana.com). Our API reference is generated from our [OpenAPI spec] (https://raw.githubusercontent.com/Asana/openapi/master/defs/asana_oas.yaml).
+ * This is the interface for interacting with the [Asana Platform](https://developers.asana.com). Our API reference is generated from our [OpenAPI spec](https://raw.githubusercontent.com/Asana/openapi/master/defs/asana_oas.yaml).
  *
  * The version of the OpenAPI document: 1.0
  * 
@@ -295,11 +295,11 @@ public class CustomFieldResponseAllOf {
   }
 
    /**
-   * *Conditional*. Only relevant for custom fields of type &#x60;people&#x60;. This array of [compact user](https://raw.githubusercontent.com) objects reflects the values of a &#x60;people&#x60; custom field.
+   * *Conditional*. Only relevant for custom fields of type &#x60;people&#x60;. This array of [compact user](https://developers.asana.com/reference/rest-api-reference) objects reflects the values of a &#x60;people&#x60; custom field.
    * @return peopleValue
   **/
   @javax.annotation.Nullable
-  @ApiModelProperty(value = "*Conditional*. Only relevant for custom fields of type `people`. This array of [compact user](https://raw.githubusercontent.com) objects reflects the values of a `people` custom field.")
+  @ApiModelProperty(value = "*Conditional*. Only relevant for custom fields of type `people`. This array of [compact user](https://developers.asana.com/reference/rest-api-reference) objects reflects the values of a `people` custom field.")
 
   public List<UserCompact> getPeopleValue() {
     return peopleValue;

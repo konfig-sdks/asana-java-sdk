@@ -1,6 +1,6 @@
 /*
  * Asana
- * This is the interface for interacting with the [Asana Platform](https://developers.asana.com). Our API reference is generated from our [OpenAPI spec] (https://raw.githubusercontent.com/Asana/openapi/master/defs/asana_oas.yaml).
+ * This is the interface for interacting with the [Asana Platform](https://developers.asana.com). Our API reference is generated from our [OpenAPI spec](https://raw.githubusercontent.com/Asana/openapi/master/defs/asana_oas.yaml).
  *
  * The version of the OpenAPI document: 1.0
  * 
@@ -312,7 +312,7 @@ public class ProjectsApiTest {
     /**
      * Get task count of a project
      *
-     * Get an object that holds task count fields. **All fields are excluded by default**. You must [opt in](https://raw.githubusercontent.com) using &#x60;opt_fields&#x60; to get any information from this endpoint.  This endpoint has an additional [rate limit](https://raw.githubusercontent.com) and each field counts especially high against our [cost limits](/docs/rate-limits#cost-limits).  Milestones are just tasks, so they are included in the &#x60;num_tasks&#x60;, &#x60;num_incomplete_tasks&#x60;, and &#x60;num_completed_tasks&#x60; counts.
+     * Get an object that holds task count fields. **All fields are excluded by default**. You must [opt in](https://developers.asana.com/reference/rest-api-reference) using &#x60;opt_fields&#x60; to get any information from this endpoint.  This endpoint has an additional [rate limit](https://developers.asana.com/reference/rest-api-reference) and each field counts especially high against our [cost limits](/docs/rate-limits#cost-limits).  Milestones are just tasks, so they are included in the &#x60;num_tasks&#x60;, &#x60;num_incomplete_tasks&#x60;, and &#x60;num_completed_tasks&#x60; counts.
      *
      * @throws ApiException if the Api call fails
      */

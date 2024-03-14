@@ -1,10 +1,10 @@
-<div align="center">
+<div align="left">
 
 [![Visit Asana](./header.png)](https://asana.com)
 
 # [Asana](https://asana.com)
 
-This is the interface for interacting with the [Asana Platform](https://developers.asana.com). Our API reference is generated from our [OpenAPI spec] (https://raw.githubusercontent.com/Asana/openapi/master/defs/asana_oas.yaml).
+This is the interface for interacting with the [Asana Platform](https://developers.asana.com). Our API reference is generated from our [OpenAPI spec](https://raw.githubusercontent.com/Asana/openapi/master/defs/asana_oas.yaml).
 
 </div>
 

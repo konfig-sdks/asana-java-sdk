@@ -13,7 +13,7 @@ All URIs are relative to *https://app.asana.com/api/1.0*
 
 Trigger a rule
 
-Trigger a rule which uses an [\&quot;incoming web request\&quot;](https://raw.githubusercontent.com) trigger.
+Trigger a rule which uses an [\&quot;incoming web request\&quot;](https://developers.asana.com/reference/rest-api-reference) trigger.
 
 ### Example
 ```java
