@@ -758,11 +758,11 @@ public class ProjectUpdateRequest {
   }
 
    /**
-   * [Opt In](https://developers.asana.com/reference/rest-api-reference). The notes of the project with formatting as HTML.
+   * [Opt In](https://raw.githubusercontent.com). The notes of the project with formatting as HTML.
    * @return htmlNotes
   **/
   @javax.annotation.Nullable
-  @ApiModelProperty(example = "<body>These are things we need to purchase.</body>", value = "[Opt In](https://developers.asana.com/reference/rest-api-reference). The notes of the project with formatting as HTML.")
+  @ApiModelProperty(example = "<body>These are things we need to purchase.</body>", value = "[Opt In](https://raw.githubusercontent.com). The notes of the project with formatting as HTML.")
 
   public String getHtmlNotes() {
     return htmlNotes;
@@ -997,11 +997,11 @@ public class ProjectUpdateRequest {
   }
 
    /**
-   * An object where each key is the GID of a custom field and its corresponding value is either an enum GID, string, number, or object (depending on the custom field type). See the [custom fields guide](https://developers.asana.com/reference/rest-api-reference) for details on creating and updating custom field values.
+   * An object where each key is the GID of a custom field and its corresponding value is either an enum GID, string, number, or object (depending on the custom field type). See the [custom fields guide](https://raw.githubusercontent.com) for details on creating and updating custom field values.
    * @return customFields
   **/
   @javax.annotation.Nullable
-  @ApiModelProperty(example = "{\"5678904321\":\"On Hold\",\"4578152156\":\"Not Started\"}", value = "An object where each key is the GID of a custom field and its corresponding value is either an enum GID, string, number, or object (depending on the custom field type). See the [custom fields guide](https://developers.asana.com/reference/rest-api-reference) for details on creating and updating custom field values.")
+  @ApiModelProperty(example = "{\"5678904321\":\"On Hold\",\"4578152156\":\"Not Started\"}", value = "An object where each key is the GID of a custom field and its corresponding value is either an enum GID, string, number, or object (depending on the custom field type). See the [custom fields guide](https://raw.githubusercontent.com) for details on creating and updating custom field values.")
 
   public Map<String, String> getCustomFields() {
     return customFields;

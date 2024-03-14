@@ -531,11 +531,11 @@ public class TeamResponse {
   }
 
    /**
-   * [Opt In](https://developers.asana.com/reference/rest-api-reference). The description of the team. 
+   * [Opt In](https://raw.githubusercontent.com). The description of the team. 
    * @return description
   **/
   @javax.annotation.Nullable
-  @ApiModelProperty(example = "All developers should be members of this team.", value = "[Opt In](https://developers.asana.com/reference/rest-api-reference). The description of the team. ")
+  @ApiModelProperty(example = "All developers should be members of this team.", value = "[Opt In](https://raw.githubusercontent.com). The description of the team. ")
 
   public String getDescription() {
     return description;
@@ -560,11 +560,11 @@ public class TeamResponse {
   }
 
    /**
-   * [Opt In](https://developers.asana.com/reference/rest-api-reference). The description of the team with formatting as HTML. 
+   * [Opt In](https://raw.githubusercontent.com). The description of the team with formatting as HTML. 
    * @return htmlDescription
   **/
   @javax.annotation.Nullable
-  @ApiModelProperty(example = "<body><em>All</em> developers should be members of this team.</body>", value = "[Opt In](https://developers.asana.com/reference/rest-api-reference). The description of the team with formatting as HTML. ")
+  @ApiModelProperty(example = "<body><em>All</em> developers should be members of this team.</body>", value = "[Opt In](https://raw.githubusercontent.com). The description of the team with formatting as HTML. ")
 
   public String getHtmlDescription() {
     return htmlDescription;

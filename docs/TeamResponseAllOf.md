@@ -7,8 +7,8 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-|**description** | **String** | [Opt In](https://developers.asana.com/reference/rest-api-reference). The description of the team.  |  [optional] |
-|**htmlDescription** | **String** | [Opt In](https://developers.asana.com/reference/rest-api-reference). The description of the team with formatting as HTML.  |  [optional] |
+|**description** | **String** | [Opt In](https://raw.githubusercontent.com). The description of the team.  |  [optional] |
+|**htmlDescription** | **String** | [Opt In](https://raw.githubusercontent.com). The description of the team with formatting as HTML.  |  [optional] |
 |**organization** | [**WorkspaceCompact**](WorkspaceCompact.md) |  |  [optional] |
 |**permalinkUrl** | **String** | A url that points directly to the object within Asana. |  [optional] [readonly] |
 |**visibility** | [**VisibilityEnum**](#VisibilityEnum) | The visibility of the team to users in the same organization  |  [optional] |

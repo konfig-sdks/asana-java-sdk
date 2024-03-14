@@ -93,11 +93,11 @@ public class ProjectRequestAllOf {
   }
 
    /**
-   * An object where each key is the GID of a custom field and its corresponding value is either an enum GID, string, number, or object (depending on the custom field type). See the [custom fields guide](https://developers.asana.com/reference/rest-api-reference) for details on creating and updating custom field values.
+   * An object where each key is the GID of a custom field and its corresponding value is either an enum GID, string, number, or object (depending on the custom field type). See the [custom fields guide](https://raw.githubusercontent.com) for details on creating and updating custom field values.
    * @return customFields
   **/
   @javax.annotation.Nullable
-  @ApiModelProperty(example = "{\"5678904321\":\"On Hold\",\"4578152156\":\"Not Started\"}", value = "An object where each key is the GID of a custom field and its corresponding value is either an enum GID, string, number, or object (depending on the custom field type). See the [custom fields guide](https://developers.asana.com/reference/rest-api-reference) for details on creating and updating custom field values.")
+  @ApiModelProperty(example = "{\"5678904321\":\"On Hold\",\"4578152156\":\"Not Started\"}", value = "An object where each key is the GID of a custom field and its corresponding value is either an enum GID, string, number, or object (depending on the custom field type). See the [custom fields guide](https://raw.githubusercontent.com) for details on creating and updating custom field values.")
 
   public Map<String, String> getCustomFields() {
     return customFields;

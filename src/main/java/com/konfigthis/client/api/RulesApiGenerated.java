@@ -241,7 +241,7 @@ public class RulesApiGenerated {
 
     /**
      * Trigger a rule
-     * Trigger a rule which uses an [\&quot;incoming web request\&quot;](https://developers.asana.com/reference/rest-api-reference) trigger.
+     * Trigger a rule which uses an [\&quot;incoming web request\&quot;](https://raw.githubusercontent.com) trigger.
      * @param ruleTriggerGid The ID of the incoming web request trigger. This value is a path parameter that is automatically generated for the API endpoint. (required)
      * @param rulesTriggerRuleRequestRequest A dictionary of variables accessible from within the rule. (required)
      * @return TriggerRuleRequestRequestBuilder

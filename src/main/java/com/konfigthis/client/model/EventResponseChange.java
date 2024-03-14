@@ -122,11 +122,11 @@ public class EventResponseChange {
   }
 
    /**
-   * *Conditional.* This property is only present when the value of the event&#39;s &#x60;change.action&#x60; is &#x60;changed&#x60; _and_ the &#x60;new_value&#x60; is an Asana resource. This will be only the &#x60;gid&#x60; and &#x60;resource_type&#x60; of the resource when the events come from webhooks; this will be the compact representation (and can have fields expanded with [opt_fields](https://developers.asana.com/reference/rest-api-reference)) when using the [get events](https://developers.asana.com/reference/rest-api-reference) endpoint.
+   * *Conditional.* This property is only present when the value of the event&#39;s &#x60;change.action&#x60; is &#x60;changed&#x60; _and_ the &#x60;new_value&#x60; is an Asana resource. This will be only the &#x60;gid&#x60; and &#x60;resource_type&#x60; of the resource when the events come from webhooks; this will be the compact representation (and can have fields expanded with [opt_fields](https://raw.githubusercontent.com)) when using the [get events](https://raw.githubusercontent.com) endpoint.
    * @return newValue
   **/
   @javax.annotation.Nullable
-  @ApiModelProperty(example = "{\"gid\":\"12345\",\"resource_type\":\"user\"}", value = "*Conditional.* This property is only present when the value of the event's `change.action` is `changed` _and_ the `new_value` is an Asana resource. This will be only the `gid` and `resource_type` of the resource when the events come from webhooks; this will be the compact representation (and can have fields expanded with [opt_fields](https://developers.asana.com/reference/rest-api-reference)) when using the [get events](https://developers.asana.com/reference/rest-api-reference) endpoint.")
+  @ApiModelProperty(example = "{\"gid\":\"12345\",\"resource_type\":\"user\"}", value = "*Conditional.* This property is only present when the value of the event's `change.action` is `changed` _and_ the `new_value` is an Asana resource. This will be only the `gid` and `resource_type` of the resource when the events come from webhooks; this will be the compact representation (and can have fields expanded with [opt_fields](https://raw.githubusercontent.com)) when using the [get events](https://raw.githubusercontent.com) endpoint.")
 
   public Object getNewValue() {
     return newValue;
@@ -151,11 +151,11 @@ public class EventResponseChange {
   }
 
    /**
-   * *Conditional.* This property is only present when the value of the event&#39;s &#x60;change.action&#x60; is &#x60;added&#x60; _and_ the &#x60;added_value&#x60; is an Asana resource. This will be only the &#x60;gid&#x60; and &#x60;resource_type&#x60; of the resource when the events come from webhooks; this will be the compact representation (and can have fields expanded with [opt_fields](https://developers.asana.com/reference/rest-api-reference)) when using the [get events](https://developers.asana.com/reference/rest-api-reference) endpoint.
+   * *Conditional.* This property is only present when the value of the event&#39;s &#x60;change.action&#x60; is &#x60;added&#x60; _and_ the &#x60;added_value&#x60; is an Asana resource. This will be only the &#x60;gid&#x60; and &#x60;resource_type&#x60; of the resource when the events come from webhooks; this will be the compact representation (and can have fields expanded with [opt_fields](https://raw.githubusercontent.com)) when using the [get events](https://raw.githubusercontent.com) endpoint.
    * @return addedValue
   **/
   @javax.annotation.Nullable
-  @ApiModelProperty(example = "{\"gid\":\"12345\",\"resource_type\":\"user\"}", value = "*Conditional.* This property is only present when the value of the event's `change.action` is `added` _and_ the `added_value` is an Asana resource. This will be only the `gid` and `resource_type` of the resource when the events come from webhooks; this will be the compact representation (and can have fields expanded with [opt_fields](https://developers.asana.com/reference/rest-api-reference)) when using the [get events](https://developers.asana.com/reference/rest-api-reference) endpoint.")
+  @ApiModelProperty(example = "{\"gid\":\"12345\",\"resource_type\":\"user\"}", value = "*Conditional.* This property is only present when the value of the event's `change.action` is `added` _and_ the `added_value` is an Asana resource. This will be only the `gid` and `resource_type` of the resource when the events come from webhooks; this will be the compact representation (and can have fields expanded with [opt_fields](https://raw.githubusercontent.com)) when using the [get events](https://raw.githubusercontent.com) endpoint.")
 
   public Object getAddedValue() {
     return addedValue;
@@ -180,11 +180,11 @@ public class EventResponseChange {
   }
 
    /**
-   * *Conditional.* This property is only present when the value of the event&#39;s &#x60;change.action&#x60; is &#x60;removed&#x60; _and_ the &#x60;removed_value&#x60; is an Asana resource. This will be only the &#x60;gid&#x60; and &#x60;resource_type&#x60; of the resource when the events come from webhooks; this will be the compact representation (and can have fields expanded with [opt_fields](https://developers.asana.com/reference/rest-api-reference)) when using the [get events](https://developers.asana.com/reference/rest-api-reference) endpoint.
+   * *Conditional.* This property is only present when the value of the event&#39;s &#x60;change.action&#x60; is &#x60;removed&#x60; _and_ the &#x60;removed_value&#x60; is an Asana resource. This will be only the &#x60;gid&#x60; and &#x60;resource_type&#x60; of the resource when the events come from webhooks; this will be the compact representation (and can have fields expanded with [opt_fields](https://raw.githubusercontent.com)) when using the [get events](https://raw.githubusercontent.com) endpoint.
    * @return removedValue
   **/
   @javax.annotation.Nullable
-  @ApiModelProperty(example = "{\"gid\":\"12345\",\"resource_type\":\"user\"}", value = "*Conditional.* This property is only present when the value of the event's `change.action` is `removed` _and_ the `removed_value` is an Asana resource. This will be only the `gid` and `resource_type` of the resource when the events come from webhooks; this will be the compact representation (and can have fields expanded with [opt_fields](https://developers.asana.com/reference/rest-api-reference)) when using the [get events](https://developers.asana.com/reference/rest-api-reference) endpoint.")
+  @ApiModelProperty(example = "{\"gid\":\"12345\",\"resource_type\":\"user\"}", value = "*Conditional.* This property is only present when the value of the event's `change.action` is `removed` _and_ the `removed_value` is an Asana resource. This will be only the `gid` and `resource_type` of the resource when the events come from webhooks; this will be the compact representation (and can have fields expanded with [opt_fields](https://raw.githubusercontent.com)) when using the [get events](https://raw.githubusercontent.com) endpoint.")
 
   public Object getRemovedValue() {
     return removedValue;

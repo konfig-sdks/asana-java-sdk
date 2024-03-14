@@ -12,7 +12,7 @@
 |**name** | **String** | The name of the custom field. |  [optional] |
 |**resourceSubtype** | [**ResourceSubtypeEnum**](#ResourceSubtypeEnum) | The type of the custom field. Must be one of the given values.  |  [optional] [readonly] |
 |**type** | [**TypeEnum**](#TypeEnum) | *Deprecated: new integrations should prefer the resource_subtype field.* The type of the custom field. Must be one of the given values.  |  [optional] [readonly] |
-|**enumOptions** | [**List&lt;EnumOption&gt;**](EnumOption.md) | *Conditional*. Only relevant for custom fields of type &#x60;enum&#x60;. This array specifies the possible values which an &#x60;enum&#x60; custom field can adopt. To modify the enum options, refer to [working with enum options](https://developers.asana.com/reference/rest-api-reference). |  [optional] |
+|**enumOptions** | [**List&lt;EnumOption&gt;**](EnumOption.md) | *Conditional*. Only relevant for custom fields of type &#x60;enum&#x60;. This array specifies the possible values which an &#x60;enum&#x60; custom field can adopt. To modify the enum options, refer to [working with enum options](https://raw.githubusercontent.com). |  [optional] |
 |**enabled** | **Boolean** | *Conditional*. Determines if the custom field is enabled or not. |  [optional] [readonly] |
 |**representationType** | [**RepresentationTypeEnum**](#RepresentationTypeEnum) | This field tells the type of the custom field. |  [optional] [readonly] |
 |**idPrefix** | **String** | This field is the unique custom ID string for the custom field. |  [optional] |
@@ -23,7 +23,7 @@
 |**numberValue** | **Double** | *Conditional*. This number is the value of a &#x60;number&#x60; custom field. |  [optional] |
 |**textValue** | **String** | *Conditional*. This string is the value of a &#x60;text&#x60; custom field. |  [optional] |
 |**displayValue** | **String** | A string representation for the value of the custom field. Integrations that don&#39;t require the underlying type should use this field to read values. Using this field will future-proof an app against new custom field types. |  [optional] [readonly] |
-|**description** | **String** | [Opt In](https://developers.asana.com/reference/rest-api-reference). The description of the custom field. |  [optional] |
+|**description** | **String** | [Opt In](https://raw.githubusercontent.com). The description of the custom field. |  [optional] |
 |**precision** | **Integer** | Only relevant for custom fields of type ‘Number’. This field dictates the number of places after the decimal to round to, i.e. 0 is integer values, 1 rounds to the nearest tenth, and so on. Must be between 0 and 6, inclusive. For percentage format, this may be unintuitive, as a value of 0.25 has a precision of 0, while a value of 0.251 has a precision of 1. This is due to 0.25 being displayed as 25%. The identifier format will always have a precision of 0. |  [optional] |
 |**format** | [**FormatEnum**](#FormatEnum) | The format of this custom field. |  [optional] |
 |**currencyCode** | **String** | ISO 4217 currency code to format this custom field. This will be null if the &#x60;format&#x60; is not &#x60;currency&#x60;. |  [optional] |

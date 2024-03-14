@@ -257,11 +257,11 @@ public class ProjectStatusResponse {
   }
 
    /**
-   * [Opt In](https://developers.asana.com/reference/rest-api-reference). The text content of the status update with formatting as HTML.
+   * [Opt In](https://raw.githubusercontent.com). The text content of the status update with formatting as HTML.
    * @return htmlText
   **/
   @javax.annotation.Nullable
-  @ApiModelProperty(example = "<body>The project <strong>is</strong> moving forward according to plan...</body>", value = "[Opt In](https://developers.asana.com/reference/rest-api-reference). The text content of the status update with formatting as HTML.")
+  @ApiModelProperty(example = "<body>The project <strong>is</strong> moving forward according to plan...</body>", value = "[Opt In](https://raw.githubusercontent.com). The text content of the status update with formatting as HTML.")
 
   public String getHtmlText() {
     return htmlText;

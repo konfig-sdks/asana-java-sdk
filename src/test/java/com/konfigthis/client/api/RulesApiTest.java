@@ -46,7 +46,7 @@ public class RulesApiTest {
     /**
      * Trigger a rule
      *
-     * Trigger a rule which uses an [\&quot;incoming web request\&quot;](https://developers.asana.com/reference/rest-api-reference) trigger.
+     * Trigger a rule which uses an [\&quot;incoming web request\&quot;](https://raw.githubusercontent.com) trigger.
      *
      * @throws ApiException if the Api call fails
      */

@@ -886,11 +886,11 @@ public class CustomFieldRequest {
   }
 
    /**
-   * *Conditional*. Only relevant for custom fields of type &#x60;enum&#x60;. This array specifies the possible values which an &#x60;enum&#x60; custom field can adopt. To modify the enum options, refer to [working with enum options](https://developers.asana.com/reference/rest-api-reference).
+   * *Conditional*. Only relevant for custom fields of type &#x60;enum&#x60;. This array specifies the possible values which an &#x60;enum&#x60; custom field can adopt. To modify the enum options, refer to [working with enum options](https://raw.githubusercontent.com).
    * @return enumOptions
   **/
   @javax.annotation.Nullable
-  @ApiModelProperty(value = "*Conditional*. Only relevant for custom fields of type `enum`. This array specifies the possible values which an `enum` custom field can adopt. To modify the enum options, refer to [working with enum options](https://developers.asana.com/reference/rest-api-reference).")
+  @ApiModelProperty(value = "*Conditional*. Only relevant for custom fields of type `enum`. This array specifies the possible values which an `enum` custom field can adopt. To modify the enum options, refer to [working with enum options](https://raw.githubusercontent.com).")
 
   public List<EnumOption> getEnumOptions() {
     return enumOptions;
@@ -1177,11 +1177,11 @@ public class CustomFieldRequest {
   }
 
    /**
-   * [Opt In](https://developers.asana.com/reference/rest-api-reference). The description of the custom field.
+   * [Opt In](https://raw.githubusercontent.com). The description of the custom field.
    * @return description
   **/
   @javax.annotation.Nullable
-  @ApiModelProperty(example = "Development team priority", value = "[Opt In](https://developers.asana.com/reference/rest-api-reference). The description of the custom field.")
+  @ApiModelProperty(example = "Development team priority", value = "[Opt In](https://raw.githubusercontent.com). The description of the custom field.")
 
   public String getDescription() {
     return description;

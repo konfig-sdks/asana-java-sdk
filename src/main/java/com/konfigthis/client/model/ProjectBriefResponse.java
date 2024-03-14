@@ -189,11 +189,11 @@ public class ProjectBriefResponse {
   }
 
    /**
-   * [Opt In](https://developers.asana.com/reference/rest-api-reference). The plain text of the project brief.
+   * [Opt In](https://raw.githubusercontent.com). The plain text of the project brief.
    * @return text
   **/
   @javax.annotation.Nullable
-  @ApiModelProperty(example = "This is a project brief.", value = "[Opt In](https://developers.asana.com/reference/rest-api-reference). The plain text of the project brief.")
+  @ApiModelProperty(example = "This is a project brief.", value = "[Opt In](https://raw.githubusercontent.com). The plain text of the project brief.")
 
   public String getText() {
     return text;

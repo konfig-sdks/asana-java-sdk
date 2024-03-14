@@ -413,11 +413,11 @@ public class CustomFieldCompact {
   }
 
    /**
-   * *Conditional*. Only relevant for custom fields of type &#x60;enum&#x60;. This array specifies the possible values which an &#x60;enum&#x60; custom field can adopt. To modify the enum options, refer to [working with enum options](https://developers.asana.com/reference/rest-api-reference).
+   * *Conditional*. Only relevant for custom fields of type &#x60;enum&#x60;. This array specifies the possible values which an &#x60;enum&#x60; custom field can adopt. To modify the enum options, refer to [working with enum options](https://raw.githubusercontent.com).
    * @return enumOptions
   **/
   @javax.annotation.Nullable
-  @ApiModelProperty(value = "*Conditional*. Only relevant for custom fields of type `enum`. This array specifies the possible values which an `enum` custom field can adopt. To modify the enum options, refer to [working with enum options](https://developers.asana.com/reference/rest-api-reference).")
+  @ApiModelProperty(value = "*Conditional*. Only relevant for custom fields of type `enum`. This array specifies the possible values which an `enum` custom field can adopt. To modify the enum options, refer to [working with enum options](https://raw.githubusercontent.com).")
 
   public List<EnumOption> getEnumOptions() {
     return enumOptions;

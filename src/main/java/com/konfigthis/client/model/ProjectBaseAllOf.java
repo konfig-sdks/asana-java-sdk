@@ -667,11 +667,11 @@ public class ProjectBaseAllOf {
   }
 
    /**
-   * [Opt In](https://developers.asana.com/reference/rest-api-reference). The notes of the project with formatting as HTML.
+   * [Opt In](https://raw.githubusercontent.com). The notes of the project with formatting as HTML.
    * @return htmlNotes
   **/
   @javax.annotation.Nullable
-  @ApiModelProperty(example = "<body>These are things we need to purchase.</body>", value = "[Opt In](https://developers.asana.com/reference/rest-api-reference). The notes of the project with formatting as HTML.")
+  @ApiModelProperty(example = "<body>These are things we need to purchase.</body>", value = "[Opt In](https://raw.githubusercontent.com). The notes of the project with formatting as HTML.")
 
   public String getHtmlNotes() {
     return htmlNotes;

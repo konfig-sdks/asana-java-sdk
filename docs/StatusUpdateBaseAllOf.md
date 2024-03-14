@@ -8,7 +8,7 @@
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
 |**text** | **String** | The text content of the status update. |  |
-|**htmlText** | **String** | [Opt In](https://developers.asana.com/reference/rest-api-reference). The text content of the status update with formatting as HTML. |  [optional] |
+|**htmlText** | **String** | [Opt In](https://raw.githubusercontent.com). The text content of the status update with formatting as HTML. |  [optional] |
 |**statusType** | [**StatusTypeEnum**](#StatusTypeEnum) | The type associated with the status update. This represents the current state of the object this object is on. |  |
 
 

@@ -261,11 +261,11 @@ public class StoryBase {
   }
 
    /**
-   * [Opt In](https://developers.asana.com/reference/rest-api-reference). HTML formatted text for a comment. This will not include the name of the creator.
+   * [Opt In](https://raw.githubusercontent.com). HTML formatted text for a comment. This will not include the name of the creator.
    * @return htmlText
   **/
   @javax.annotation.Nullable
-  @ApiModelProperty(example = "<body>This is a comment.</body>", value = "[Opt In](https://developers.asana.com/reference/rest-api-reference). HTML formatted text for a comment. This will not include the name of the creator.")
+  @ApiModelProperty(example = "<body>This is a comment.</body>", value = "[Opt In](https://raw.githubusercontent.com). HTML formatted text for a comment. This will not include the name of the creator.")
 
   public String getHtmlText() {
     return htmlText;

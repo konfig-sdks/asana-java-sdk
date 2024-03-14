@@ -12,7 +12,7 @@
 |**isFormulaField** | **Boolean** | *Conditional*. This flag describes whether a custom field is a formula custom field. |  [optional] |
 |**isValueReadOnly** | **Boolean** | *Conditional*. This flag describes whether a custom field is read only. |  [optional] |
 |**createdBy** | [**UserCompact**](UserCompact.md) |  |  [optional] |
-|**peopleValue** | [**List&lt;UserCompact&gt;**](UserCompact.md) | *Conditional*. Only relevant for custom fields of type &#x60;people&#x60;. This array of [compact user](https://developers.asana.com/reference/rest-api-reference) objects reflects the values of a &#x60;people&#x60; custom field. |  [optional] |
+|**peopleValue** | [**List&lt;UserCompact&gt;**](UserCompact.md) | *Conditional*. Only relevant for custom fields of type &#x60;people&#x60;. This array of [compact user](https://raw.githubusercontent.com) objects reflects the values of a &#x60;people&#x60; custom field. |  [optional] |
 
 
 

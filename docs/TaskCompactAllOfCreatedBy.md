@@ -2,7 +2,7 @@
 
 # TaskCompactAllOfCreatedBy
 
-[Opt In](https://developers.asana.com/reference/rest-api-reference). A *user* object represents an account in Asana that can be given access to various workspaces, projects, and tasks.
+[Opt In](https://raw.githubusercontent.com). A *user* object represents an account in Asana that can be given access to various workspaces, projects, and tasks.
 
 ## Properties
 

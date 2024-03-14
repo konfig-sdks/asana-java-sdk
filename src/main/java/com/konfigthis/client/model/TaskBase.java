@@ -640,11 +640,11 @@ public class TaskBase {
 
 
    /**
-   * [Opt In](https://developers.asana.com/reference/rest-api-reference). Array of resources referencing tasks that this task depends on. The objects contain only the gid of the dependency.
+   * [Opt In](https://raw.githubusercontent.com). Array of resources referencing tasks that this task depends on. The objects contain only the gid of the dependency.
    * @return dependencies
   **/
   @javax.annotation.Nullable
-  @ApiModelProperty(value = "[Opt In](https://developers.asana.com/reference/rest-api-reference). Array of resources referencing tasks that this task depends on. The objects contain only the gid of the dependency.")
+  @ApiModelProperty(value = "[Opt In](https://raw.githubusercontent.com). Array of resources referencing tasks that this task depends on. The objects contain only the gid of the dependency.")
 
   public List<AsanaResource> getDependencies() {
     return dependencies;
@@ -654,11 +654,11 @@ public class TaskBase {
 
 
    /**
-   * [Opt In](https://developers.asana.com/reference/rest-api-reference). Array of resources referencing tasks that depend on this task. The objects contain only the ID of the dependent.
+   * [Opt In](https://raw.githubusercontent.com). Array of resources referencing tasks that depend on this task. The objects contain only the ID of the dependent.
    * @return dependents
   **/
   @javax.annotation.Nullable
-  @ApiModelProperty(value = "[Opt In](https://developers.asana.com/reference/rest-api-reference). Array of resources referencing tasks that depend on this task. The objects contain only the ID of the dependent.")
+  @ApiModelProperty(value = "[Opt In](https://raw.githubusercontent.com). Array of resources referencing tasks that depend on this task. The objects contain only the ID of the dependent.")
 
   public List<AsanaResource> getDependents() {
     return dependents;
@@ -764,11 +764,11 @@ public class TaskBase {
   }
 
    /**
-   * [Opt In](https://developers.asana.com/reference/rest-api-reference). The notes of the text with formatting as HTML.
+   * [Opt In](https://raw.githubusercontent.com). The notes of the text with formatting as HTML.
    * @return htmlNotes
   **/
   @javax.annotation.Nullable
-  @ApiModelProperty(example = "<body>Mittens <em>really</em> likes the stuff from Humboldt.</body>", value = "[Opt In](https://developers.asana.com/reference/rest-api-reference). The notes of the text with formatting as HTML.")
+  @ApiModelProperty(example = "<body>Mittens <em>really</em> likes the stuff from Humboldt.</body>", value = "[Opt In](https://raw.githubusercontent.com). The notes of the text with formatting as HTML.")
 
   public String getHtmlNotes() {
     return htmlNotes;
@@ -812,11 +812,11 @@ public class TaskBase {
 
 
    /**
-   * [Opt In](https://developers.asana.com/reference/rest-api-reference). In some contexts tasks can be rendered as a visual separator; for instance, subtasks can appear similar to [sections](https://developers.asana.com/reference/rest-api-reference) without being true &#x60;section&#x60; objects. If a &#x60;task&#x60; object is rendered this way in any context it will have the property &#x60;is_rendered_as_separator&#x60; set to &#x60;true&#x60;.
+   * [Opt In](https://raw.githubusercontent.com). In some contexts tasks can be rendered as a visual separator; for instance, subtasks can appear similar to [sections](https://raw.githubusercontent.com) without being true &#x60;section&#x60; objects. If a &#x60;task&#x60; object is rendered this way in any context it will have the property &#x60;is_rendered_as_separator&#x60; set to &#x60;true&#x60;.
    * @return isRenderedAsSeparator
   **/
   @javax.annotation.Nullable
-  @ApiModelProperty(example = "false", value = "[Opt In](https://developers.asana.com/reference/rest-api-reference). In some contexts tasks can be rendered as a visual separator; for instance, subtasks can appear similar to [sections](https://developers.asana.com/reference/rest-api-reference) without being true `section` objects. If a `task` object is rendered this way in any context it will have the property `is_rendered_as_separator` set to `true`.")
+  @ApiModelProperty(example = "false", value = "[Opt In](https://raw.githubusercontent.com). In some contexts tasks can be rendered as a visual separator; for instance, subtasks can appear similar to [sections](https://raw.githubusercontent.com) without being true `section` objects. If a `task` object is rendered this way in any context it will have the property `is_rendered_as_separator` set to `true`.")
 
   public Boolean getIsRenderedAsSeparator() {
     return isRenderedAsSeparator;
@@ -954,11 +954,11 @@ public class TaskBase {
 
 
    /**
-   * [Opt In](https://developers.asana.com/reference/rest-api-reference). The number of subtasks on this task. 
+   * [Opt In](https://raw.githubusercontent.com). The number of subtasks on this task. 
    * @return numSubtasks
   **/
   @javax.annotation.Nullable
-  @ApiModelProperty(example = "3", value = "[Opt In](https://developers.asana.com/reference/rest-api-reference). The number of subtasks on this task. ")
+  @ApiModelProperty(example = "3", value = "[Opt In](https://raw.githubusercontent.com). The number of subtasks on this task. ")
 
   public Integer getNumSubtasks() {
     return numSubtasks;
